@@ -24,7 +24,7 @@ class Position(Worker):
 
     def get_total_incom(self):
         print(self._income)
-        # print(f'Оклад {self.dict_income['оклад']}') # Не смог понять почему нельзя работать со словарем в таком виде
+        # print(f'Оклад {self._income['оклад']}') # Не смог понять почему нельзя работать со словарем в таком виде
 
 
 new_worker = Position('Алексей', 'Шельпяков', 'Программист')
